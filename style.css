@@ -1,0 +1,58 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: gothic A1, arial;
+  background-color: #121316;
+}
+
+li{
+  margin-bottom: 5px;
+}
+
+p{
+  margin-top: 25px;
+}
+
+.split{
+  display: flex;
+  flex-direction: row;
+  z-index: 100;
+  
+}
+
+.left{
+  flex: 2;
+  color: lightyellow;
+  margin-left: 25px;
+  z-index: 101;
+}
+
+.middle{
+  flex: 2;
+}
+
+.right{
+  flex: 3;
+  color: lightblue;
+  z-index: 101;
+}
+
+.frame{
+  z-index: 0;
+}
+
+a{
+  cursor: pointer;
+  color: lightblue;
+  text-decoration: none;
+}
+
+a:hover{
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+strong{
+  font-family: arial;
+  font-weight: bold;
+}
